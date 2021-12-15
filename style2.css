@@ -1,0 +1,26 @@
+body {
+  background-image: url("arrierePlan2.jpg");
+}
+
+h2 {
+  background-color: blue;
+  border: 7px outset;
+  width: 40%;
+  height: 20%;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+div {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+div ul {
+  color: white;
+}

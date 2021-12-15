@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Tajawal:wght@300&display=swap");
+body {
+  padding: 0 2%;
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: white;
+  height: 50%;
+}
+
+nav .profile {
+  display: flex;
+  align-items: center;
+}
+
+nav .profile img {
+  width: 40px;
+  height: 40;
+  border-radius: 50%;
+}
+
+nav .profile h1 {
+  font-size: 15px;
+  margin-left: 10px;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid gray;
+  color: black;
+}
+nav ul li:hover {
+  border-bottom: black;
+}
+
+.contenu-de-page {
+  margin: 4%;
+}
+
+.contenu-de-page header {
+  margin-top: 5%;
+  max-width: 80;
+}
+
+.contenu-de-page header h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Tajawal", sans-serif;
+  font-size: 6vw;
+  color: #fff;
+}
+
+.contenu-de-page header p {
+  line-height: 30px;
+  color: grey;
+}
+.contenu-de-page header button {
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 0;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid yellow;
+  cursor: pointer;
+}
+.contenu-de-page header button:hover {
+  color: yellow;
+  border-bottom-color: black;
+}
+
+.contenu-de-page .image-principale1 {
+  margin-top: 5%;
+}
+
+.contenu-de-page .image-principale1 img {
+  max-width: 100%;
+
+  transition: filter 0.5s;
+}
+.contenu-de-page .image-principale1 img:hover {
+  filter: brightness(50%);
+}
+
+.contenu-de-page .info-personnelles {
+  margin-top: 6%;
+  color: white;
+}
+
+.contenu-de-page .info-personnelles h1 {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  font-size: 3vw;
+}
+
+.contenu-de-page .info-personnelles .PROJET .competence .description {
+  max-width: 195px;
+  margin-right: 20px;
+}
+
+.contenu-de-page .info-personnelles .PROJET .competence h4 {
+  margin: 0;
+}
+
+.contenu-de-page .info-personnelles .PROJET .competence .description {
+  font-size: 10px;
+}
+
+@media screen and(max-width:700px) {
+  nav {
+    justify-content: center;
+  }
+  nav ul {
+    display: none;
+  }
+  .contenu-de-page header {
+    margin-top: 10%;
+    max-width: 100%;
+  }
+  .contenu-de-page .info-personnelles h1 {
+    font-size: 1.5em;
+  }
+  .contenu-de-page .PROJET .competence {
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+}
+
+footer {
+  margin-top: 5%;
+}
+footer a {
+  text-decoration: none;
+}
